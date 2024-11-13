@@ -1,0 +1,207 @@
+@font-face {
+  font-family: mid;
+  src: url("neue-haas-grotesk/NeueHaasDisplayMediu.ttf");
+}
+@font-face {
+  font-family: my font;
+  font-weight: 100;
+  src: url("neue-haas-grotesk/NeueHaasDisplayRoman.ttf");
+}
+@font-face {
+  font-family: lig;
+  font-weight: 100;
+  src: url("neue-haas-grotesk/NeueHaasDisplayLight.ttf");
+}
+@font-face {
+  font-family: lig;
+  font-weight: 100;
+  src: url("neue-haas-grotesk/NeueHaasDisplayXThin.ttf");
+}
+@font-face {
+  font-family: xxlig;
+  font-weight: 100;
+  src: url("neue-haas-grotesk/NeueHaasDisplayXXThin.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: mid;
+  text-decoration: none;
+  color: black;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #efeae3;
+}
+
+header {
+  width: 100%;
+  height: 14vh;
+  padding: 5vh 5vh 0vh 4vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-ops {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.6vh;
+}
+
+.nav-ops h4 {
+  border: 1px solid rgba(0, 0, 0, 0.527);
+  padding: 1.3vh 2.01vh;
+  border-radius: 10vh;
+  font-size: 1.8vh;
+  letter-spacing: -0.6px;
+}
+
+.page1 {
+  width: 100%;
+  height: 84vh;
+  padding: 3.6vh 4vh;
+}
+
+.page1-cont {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+  display: flex;
+  justify-content: space-between;
+  padding: 9vh 2vh;
+}
+
+.page1-cont .pg1-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-right: 35vh;
+}
+
+.page1-cont .pg1-left h3 {
+  font-size: 4vh;
+}
+
+.page1-cont .pg1-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.page1-cont .pg1-right h1 {
+  text-align: right;
+  font-size: 20vh;
+  line-height: 0.82;
+}
+
+.page2 {
+  width: 100%;
+  height: 100%;
+  padding: 4vh 4vh 16vh 4vh;
+}
+
+.page2 video {
+  border-radius: 3vh;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.marquee {
+  background-color: aquamarine;
+  width: 100%;
+  height: 20vh;
+}
+
+.page3 {
+  width: 100%;
+  height: 100vh;
+  padding: 8vh 12vh;
+}
+
+.page3-cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.pg3-left {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 22.6vh;
+  padding-right: 12vh;
+}
+
+.pg3-left h1 {
+  font-size: 8.4vh;
+  line-height: 0.98;
+}
+
+.pg3-right {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  display: flex ;
+  justify-content: flex-end;
+  align-items:flex-end;
+  padding-bottom: 2vh;
+}
+
+.pg3-right img {
+  border-radius: 2vh;
+  width: 19.6vw;
+  height: 26vh;
+  background-color: blue;
+}
+
+.pg3-right h5 {
+  margin-top: 5.8vh;
+  font-size: 1.8vh;
+  letter-spacing: -0.06vh;
+}
+
+.page4 {
+  width: 100%;
+  height: 100%;
+  padding: 12vh 4vh;
+}
+
+.page4-cont {
+  width: 100%;
+  height: 114vh;
+  background-color: black;
+  border-radius: 2vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pg4-left {
+  width: 44%;
+  height: 100%;
+}
+
+.pg4-right {
+  width: 56%;
+  height: 100%;
+  background-color: rgb(104, 110, 46);
+  border-radius: 2vh;
+}
+
+.pg4-right img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2vh;
+}
