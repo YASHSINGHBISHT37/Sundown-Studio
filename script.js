@@ -11,13 +11,6 @@ function page4image() {
     p4Img.addEventListener("mouseleave", function () {
       p4FixImg.style.display = "none";
     });
-  
-    elements.forEach(function (e) {
-      e.addEventListener("mouseenter", function () {
-        var image = e.getAttribute("data-image");
-        p4FixImg.style.backgroundImage = `url(${image})`;
-      });
-    });
   }
   else {
     p4Img.addEventListener("mouseenter", function () {
@@ -34,6 +27,21 @@ function page4image() {
         p4FixImg.style.backgroundImage = `url(${image})`;
       });
     });
+
+    elements.forEach(function (e) {
+      e.addEventListener("mouseenter", function () {
+        if (window.innerWidth > 600) {
+          var image = e.getAttribute("data-image");
+          p4FixImg.style.backgroundImage = `url(${image})`;
+        }
+      });
+
+      e.addEventListener("mouseleave", function () {
+        if (window.innerWidth > 600) {
+          p4FixImg.style.backgroundImage = "";
+        }
+      })
+    })
   }
 
 
