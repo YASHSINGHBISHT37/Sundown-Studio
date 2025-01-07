@@ -27,6 +27,10 @@
   display: none;
 }
 
+::selection {
+  background-color: #fe330ae1;
+}
+
 * {
   margin: 0;
   padding: 0;
