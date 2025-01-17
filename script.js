@@ -191,9 +191,9 @@ function p5ImgChange() {
   }
 }
 
-document  .addEventListener("contextmenu",function(e) {
-  e.preventDefault()
-},false)
+// document.addEventListener("contextmenu",function(e) {
+//   e.preventDefault()
+// },false)
 
 page4image();
 swiper();
