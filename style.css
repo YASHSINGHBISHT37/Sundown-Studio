@@ -2,21 +2,25 @@
   font-family: mid;
   src: url("neue-haas-grotesk/NeueHaasDisplayMediu.ttf");
 }
+
 @font-face {
   font-family: rom;
   font-weight: 100;
   src: url("neue-haas-grotesk/NeueHaasDisplayRoman.ttf");
 }
+
 @font-face {
   font-family: lig;
   font-weight: 100;
   src: url("neue-haas-grotesk/NeueHaasDisplayLight.ttf");
 }
+
 @font-face {
   font-family: xthin;
   font-weight: 100;
   src: url("neue-haas-grotesk/NeueHaasDisplayXThin.ttf");
 }
+
 @font-face {
   font-family: xxthin;
   font-weight: 100;
@@ -39,6 +43,7 @@
   text-decoration: none;
   color: black;
 }
+
 body {
   height: 100%;
   width: 100%;
@@ -70,6 +75,7 @@ body {
   animation-duration: 1s;
   opacity: 0;
   letter-spacing: -0.2vh;
+  font-weight: 100;
 }
 
 .loader h1:nth-child(2) {
@@ -87,10 +93,12 @@ body {
     opacity: 0;
     transition: all ease;
   }
+
   50% {
     opacity: 1;
     transition: all ease;
   }
+
   100% {
     opacity: 0;
     transition: all ease;
@@ -123,6 +131,7 @@ nav {
   padding: 1.3vh 2.2vh;
   border-radius: 10vh;
   font-size: 1.9vh;
+  font-weight: 100;
   letter-spacing: -0.6px;
   position: relative;
   overflow: hidden;
@@ -360,7 +369,10 @@ nav {
   letter-spacing: -0.06vh;
   padding-left: 7vw;
   padding-right: 0.5vw;
+  font-weight: 100;
+
 }
+
 
 .pg3-circle {
   position: absolute;
@@ -400,6 +412,7 @@ nav {
   0% {
     transform: translate(-5%, 10%) skew(0deg);
   }
+
   100% {
     transform: translate(5%, -6%) skew(-10deg);
   }
@@ -409,6 +422,7 @@ nav {
   0% {
     transform: translate(-5%, 10%);
   }
+
   100% {
     transform: translate(5%, -6%);
   }
@@ -416,7 +430,7 @@ nav {
 
 .page4 {
   width: 100%;
-  height: 146vh;
+  height: 100%;
   padding: 1vh 0vh 0vh 0vh;
   position: relative;
   z-index: 10000000;
@@ -456,7 +470,7 @@ nav {
 
 .element {
   width: 100%;
-  height: 16.3vh;
+  height: 17.3vh;
   position: relative;
   cursor: pointer;
 }
@@ -482,7 +496,7 @@ nav {
 .element-cont {
   position: relative;
   width: 100%;
-  height: 16.3vh;
+  height: 17.3vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -514,6 +528,7 @@ nav {
   position: relative;
   font-size: 6.3vh;
 }
+
 .element .pg4-ele-right {
   position: relative;
 }
@@ -532,7 +547,7 @@ nav {
 
 .p4-bottom {
   width: 100%;
-  height: 10vh;
+  height: 19vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -552,9 +567,10 @@ nav {
 }
 
 .p4-bottom a h1 {
-  font-size: 1.7vh;
+  font-size: 1.8vh;
   padding: 1.4vh 2vh;
   z-index: 3;
+  font-weight: 100;
 }
 
 .p4-bottom a h1::after {
@@ -618,9 +634,7 @@ nav {
   cursor: pointer;
   letter-spacing: -1px;
   transition: all ease 0.3s;
-}
-
-.pg5-left .top .h1 {
+  font-weight: 300;
   margin-left: 0.8vh;
   color: #efeae3;
 }
@@ -943,6 +957,7 @@ footer * {
     padding-right: 6vw;
     padding-left: 3vw;
   }
+
   .page1-cont {
     display: none;
   }
@@ -1188,6 +1203,7 @@ footer * {
     0% {
       transform: translate(-5%, 10%) skew(0deg);
     }
+
     100% {
       transform: translate(5%, -6%) skew(-10deg);
     }
@@ -1197,6 +1213,7 @@ footer * {
     0% {
       transform: translate(-5%, 10%);
     }
+
     100% {
       transform: translate(5%, -6%);
     }
@@ -1297,6 +1314,7 @@ footer * {
     font-size: 4.9vh;
     margin-top: 1.2vh;
   }
+
   .element .pg4-ele-right {
     position: relative;
     margin-top: 1vh;
