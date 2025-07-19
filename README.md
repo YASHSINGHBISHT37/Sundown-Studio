@@ -58,7 +58,7 @@ SUNDOWN STUDIO/
 
 ## 🖼️ Screenshots
 
-_Add screenshots of your site here if desired._
+![Sundown Studio Screenshot](https://assets.awwwards.com/awards/element/2023/08/64eb245a97c0c825305766.jpg)
 
 ---
 
@@ -70,4 +70,5 @@ This project is for educational purposes only. All rights to the original Sundow
 
 ## 🙌 Credits
 
-- [Sundown Studio](https://sundown-studio.com/)
+- [Sundown Studio](https://sundown-studio.com/) for design inspiration
+- [Locomotive Scroll](https://locomotivemtl.github.io/locomotive-scroll/)
