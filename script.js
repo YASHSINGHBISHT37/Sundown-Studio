@@ -1,3 +1,27 @@
+let lenis;
+
+function lenisScroll() {
+    lenis = new Lenis({
+        autoRaf: true,
+    });
+
+    let backToUp = document.querySelector('.back-to-up');
+    backToUp.addEventListener("click", function () {
+        lenis.scrollTo(0, {
+            duration: 3.5,
+        });
+    });
+
+    lenis.on('scroll', ScrollTrigger.update);
+
+    gsap.ticker.add((time) => {
+        lenis.raf(time * 1000);
+    });
+
+    gsap.ticker.lagSmoothing(0);
+}
+
+
 function page4image() {
   var p4Img = document.querySelector(".element-section");
   var p4FixImg = document.querySelector(".page-4-image");
@@ -77,13 +101,6 @@ function menu() {
     }
   });
 }
-
-// function locoScroll() {
-//   const scroll = new LocomotiveScroll({
-//     el: document.querySelector(".main"),
-//     smooth: true
-//   });
-// }
 
 function p5ImgChange() {
   var text1 = document.querySelector(".h1");
@@ -176,4 +193,4 @@ page4image();
 swiper();
 menu();
 p5ImgChange();
-locoScroll();
+lenisScroll();
